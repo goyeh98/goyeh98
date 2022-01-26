@@ -1,10 +1,9 @@
 - 👋 Hi, I’m @goyeh98
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👀 I’m interested in job front end
+- 🌱 I’m currently learning HTML, CSS, PHP, JavaScript, Node.js, React.js
+- 💞️ I’m looking to collaborate on Project website
+- 📫 How to reach me at yogaafriend@gmail.com
 
 <!---
-goyeh98/goyeh98 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+ALways learn and study
 --->
