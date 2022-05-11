@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CSS3</title>
+</head>
+<body>
+
+	<h1>Catatan CSS3</h1>
+
+	<h2>Border-radius</h2>
+	<p>Untuk membuat kotak yang kita punya menjadi tumpul</p>
+	
+	<h3>Terdapat beberapa value dalam border radius</h3>
+	<ul>
+		<li>border-top-right-radius:</li>
+		<li>border-top-left-radius:</li>
+		<li>border-bottom-right-redius:</li>
+		<li>border-bottom-left-radius:</li>
+	</ul>
+	<hr>
+	<br>
+
+	<h2>Opacity</h2>
+	<p>Untuk membuat sebuah gambar menjadi transparansi <b><i>1-0</i></b></p>
+	<hr>
+	<br>
+
+	<h2>Rgba / Hsla</h2>
+	<p>Dapat memberikan warna dan transparansi tanpa harus menjadi kannya parrent <b><i>(rgba: 0,0,0,opacity)</i></b></p>
+	<hr>
+	<br>
+
+	<h2>Border-shadow</h2>
+	<p>Untuk memberikan bayangan pada elemen yang kita buat <b><i>(inset(ops)-x-y-spread(ops)-blur-color / 1px 1px 1px red)</i></b></p>
+	<h3>Terdapat beberapa value dalam border-shadow</h3>
+	<dl>
+		<dt>Inset</dt>
+		<dd>Untuk membuat bayangan berada dalam elemen</dd>
+		<dt>Spread</dt>
+		<dd>Untuk membuat bayangan diluar menjadi kecil atau besar</dd>
+	</dl>
+	<hr>
+	<br>
+
+	<h2>Text-shadow</h2>
+	<p>Untuk memberikan bayangan pada text sama seperti boxshadow tetapi tidak ada inset dan spread <b><i>(x-y-blur-color)</i></b></p>
+	<hr>
+	<br>
+
+	<h2>Gradient</h2>
+	<ul>
+		<li>Linear-gradient</li>
+			<dt>Contoh background-image: linear-gradient (warna awal, warna akhir); </dt>
+			<dt>Contoh background: linear-gradient (sudut<10deg> arah, warna1 , warna2, warna3);</dt>
+				<ol>
+					<span>Arah :</span>
+					<li>to bottom</li>
+					<li>to top</li>
+					<li>to left</li>
+					<li>to right</li>
+					<li>to left top</li>
+					<li>to left bottom</li>
+					<li>to right top</li>
+					<li>to right bottom</li>
+				</ol>
+				<br>
+		<li>Radial-gradient</li>
+			<dt>Contoh background-image: radial-gradient (warna awal, warna akhir); </dt>
+			<dt>Contoh background: radial-gradient (tipe jangkauan at posisiy posisix warna1 , warna2, warna3);</dt>
+			<ol>
+				Tipe:
+				<li>ellipse</li>
+				<dd>bulat yang mengikuti besar background</dd>
+				<li>circle</li>
+				<dd>bulat yang keluar background</dd>
+			</ol>
+			<ol>
+				Jangkauan : jarak dari pusat gradient ke sisi terluarnya
+				<li>closest-corner</li>
+				<dd>jarak dari pusat gradient ke sudut terdekat elemen</dd>
+				<li>closest-side</li>
+				<dd>jarak dari pusat gradient ke sisi terdekat elemen</dd>
+				<li>farthest-corner</li>
+				<dd>jarak dari pusat gradient ke sudut terjauh elemen</dd>
+				<li>farthest-side</li>
+				<dd>jarak dari pusat gradient ke sisi terjauh elemen</dd>
+			</ol>
+			<ol>
+				Posisi Y :
+				<li>top</li>
+				<li>center</li>
+				<li>bottom</li>
+				<li>px</li>
+				Posisi X :
+				<li>left</li>
+				<li>center</li>
+				<li>right</li>
+				<li>px</li>
+			</ol>
+	</ul>
+	<hr>
+	<br>
+
+	<h2>Font face</h2>
+	<p>Untuk menambahkan font download ke website</p>
+	<p>Contoh @font-face { font-family: "NamaFont"; src: url(lokasi file) formal(woff); }</p>
+	<p><a href="https://www.fontsquirrel.com/tools/webfont-generator">Web Generator</a></p>
+	<p><a href="https://www.fontsquirrel.com/fonts/list/hot">download font</a></p>
+	<hr>
+	<br>
+
+	<h2>Vendor Prefixes</h2>
+	<p>Untuk menyesuaikan tampilan yang dibutuhkan untuk browser yang dibuka pengunjung website agar berjalan. Bisa gunakan emet atau website</p>
+	<dt>Macam-macam prefixes</dt>
+	<ul>
+		<li>-webkit- (chrome,safari,opera)</li>
+		<li>-moz- (firefox)</li>
+		<li>-ms- (internet explore)</li>
+		<li>-o- (Opera)</li>
+	</ul>
+	<hr>
+	<br>
+
+	<h2>Filter</h2>
+	<p>Untuk memberikan efek pada gambar website</p>
+	<p>Contoh filter : blur(10px)</p>
+	<p>semua filter menggunakan px kecuali hue-rotate menggunakan deg</p>
+	<ul>
+		Tipe Filter :
+		<li>blur</li>
+		<li>brightness</li>
+		<li>contrast</li>
+		<li>saturate</li>
+		<li>grayscale</li>
+		<li>sepia</li>
+		<li>hue-rotate</li>
+		<li>invert</li>
+		<li>opacity</li>
+		<li>drop-shadow</li>
+	</ul>	
+	<hr>
+	<br>
+
+	<h2>Transform 2D</h2>
+	<p>Untuk memanipulasi format visual dari elemen HTML, disarankan untuk hover</p>
+	<p>Contoh transform: scale(1)</p>
+	<ul>
+		Tipe Transform :
+		<li>scale</li>
+		<li>rotate(deg)</li>
+		<li>skew(deg)</li>
+		<li>translate(px)</li>
+	</ul>
+	<hr>
+	<br>
+
+	<h2>Transition</h2>
+	<p>Memungkinkan kita dapat mengubah nilai dari properti HTML secara halus</p>
+	<p>Contoh transition: property durasi fungsi delay; (ms/s)</p>
+	<p>Catatan agar tidak terjadi repeat saat mouse di atas, gunakan container pada HTML</p>
+	<ul>
+		Macam-macam fungsi :
+		<li>ease</li>
+		<li>ease-in</li>
+		<li>ease-out</li>
+		<li>ease-in-out</li>
+		<li>linear</li>
+		<li>cubic-bezier(w,x,y,z)</li>
+	</ul>
+	<hr>
+	<br>
+
+	<h2>Animation</h2>
+	
+
+</body>
+</html>

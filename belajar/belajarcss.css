@@ -1,0 +1,20 @@
+/*Okeeeeeee kita akan belajar CSS
+DI css itu ada 3 element yaitu
+Selector - Property - Value
+
+website untuk http://developer.mozilla.org/en-US/docs/Web/Css/Reference
+dan http://css-tricks.com/almanac
+*/
+
+h1 {
+	font-family: cursive;
+	font-size: 100;
+	text-align: center;
+	color: red;
+}
+
+p {
+	font-family: cursive;
+	text-align: justify;
+	text-indent: px;
+}

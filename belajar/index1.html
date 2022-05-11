@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOYEH</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        * {
+            font-family: 'Lato', sans-serif;
+        }
+
+        body {
+            background-image: url(img/background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container {
+            height: 100vh;
+        }
+
+        .nav-link {
+            margin-left: 20px;
+            color: rgb(114, 112, 109);
+        }
+
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            background-color: transparent;
+            color: rgb(114, 112, 109);
+        }
+
+        .a {
+            font-size: 40px;
+        }
+
+        @media (min-width: 768px) {
+            .a {
+                font-size: 120px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg " style="background-color:transparent;">
+            <div class=" container-fluid">
+                <a class="navbar-brand" href="#" style="font-family: 'Montserrat', sans-serif; color: white;">GOYEH</a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Price</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div style=" position: absolute; top: 40%; left: 35% ; color: white; ">
+            <div class="a" style="position:relative;font-family: 'Montserrat', sans-serif;font-weight: 900;">
+                GOYEH
+                <span style="position:absolute;bottom:0;right:0;font-size: 20px;color: rgb(114, 112, 109);">Web
+                    Developer</span>
+            </div>
+        </div>
+
+        <div class="d-flex align-items-start" style="position: absolute;top: 50%;right: 20px;">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a href="#" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i
+                        class="fa-solid fa-arrow-up"></i></a>
+                <a href="#" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

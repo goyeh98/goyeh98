@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catatan CSS</title>
+</head>
+<body>
+
+	<h1>CATATAN CSS</h1>
+
+<h3 style="color: red">info tanda {} di ganti < ></h3>
+	<h2>Penempatan CSS</h2>
+	<ul>
+		<li>Embed</li>
+		<li>Inline</li>
+		<li>external</li>
+	</ul>
+	<dl>
+		<dt>Embed</dt>
+		<dd>{style}{/style}</dd>
+		<dt>Inline</dt>
+		<dd>inline itu type style di masukan ke dalam coding paragraf or heading <b><i>{p style="color: lightblue;"} ... {/p}</i></b></dd>
+		<dt>External</dt>
+		<dd>Link ditaroh di bawah title <b><i>{Link rel="stylesheet" href="style.css"}</i></b></dd>
+	</dl>
+	<hr>
+	<br>
+
+	<h2>Font Styling</h2>
+
+	<dl>
+		<dt>font-family</dt>
+		<dd>mengatur jenis font yang akan di gunakan <b><i>(arial,dll)</i></b></dd>
+		<dt>font-size</dt>
+		<dd>mengatur ukuran font  <b><i>(px,%,em)</i></b></dd>
+		<dt>font-weight</dt>
+		<dd>mengatur ketebalan font  <b><i>(lighter,normal,100-900,bold,bolder)</i></b></dd>
+		<dt>font-variant</dt>
+		<dd>mengubah font menjadi smallcaps  <b><i>(Normal,smallcaps)</i></b></dd>
+		<dt>font-style</dt>
+		<dd>mengubah font menjadi miring <b><i>(normal,oblique,italic)</i></b></dd>
+		<dt>line-height</dt>
+		<dd>mengatur posisi tulisan ditiap parent  <b><i>(normal,px,em)</i></b></dd>
+	</dl>
+	<hr>
+	<br>
+
+	<h2>Text Styling</h2>
+
+	<dl>
+		<dt><b>Color</b></dt>
+		<dd>Memberikan warna pada text <b><i>{color(red),hexadecimal(#ffffff),rgb(255,0,0)}</i></b></dd>
+		<dt><b>text-align</b></dt>
+		<dd>mengatur format paragraf atau text <b><i>(left,right,center,justify)</i></b></dd>
+		<dt><b>text-indent</b></dt>
+		<dd>memberi indentasi pada paragraf atau text <b><i>(px,%)</i></b></dd>
+		<dt><b>text-decoration</b></dt>
+		<dd>mengatur dekorasi pada text <b><i>(none,underline,overline,line-through)</i></b></dd>
+		<dt><b>text-transform</b></dt>
+		<dd>mengubah jenis huruf menjadi besar, kecil dan kapital <b><i>(none,lowercase,uppercase,capitalize)</i></b></dd>
+		<dt><b>letter-spacing</b></dt>
+		<dd>mengatur spasi antar huruf <b><i>(normal,px)</i></b></dd>
+		<dt><b>word-spacing</b></dt>
+		<dd>mengatur spasi antar kata <b><i>(normal,px)</i></b></dd>
+	</dl>
+	<hr>
+	<br>
+
+	<h2>Background</h2>
+
+	<ul>
+		<li>Background-color</li>
+		<li>Background-image</li>
+		<li>Background-position</li>
+		<li>Background-repeat</li>
+	</ul>
+
+	<dl>
+		<dt>Background-color</dt>
+		<dd>Mengatur warna pada background <b><i>(red,blue,dll)</i></b></dd>
+		<dt>Background-image</dt>
+		<dd>Mengatur gambar yang akan digunakan <b><i>(url(namafolder/nama gambar)</i></b></dd>
+		<dt>Background-position</dt>
+		<dd>Mengatur posisi gambar pada background <b><i>(top-center-bottom. left-center-right</i></b></dd>
+		<dt>Background-repeat</dt>
+		<dd>Mengatur jenis pengulangan gambar pada background <b><i>(repeart-y, repeart-x, no-repeat</i></b></dd>
+	</dl>
+	<hr>
+	<br>
+
+	<h2>Selector</h2>
+
+	<dl>
+		<dt>Id</dt>
+		<dd>Digunakan untuk link didalam 1 halaman atau didalam 1 folder <b><i>(Id="nama", html - #(kres) css)<i><b></b></i></i></b></dd>
+		<dt>Class</dt>
+		<dd>Sama seperti ID, tapi lebih disarankan menggunakan html jika tidak bisa, baru gunakan Class <b><i>{(Class="nama", html),(. titik ,css)}</i></b></dd>
+	</dl>
+	<hr>
+	<br>
+
+	<h2>Pseudo Class</h2>
+
+	<dl>
+		<dt><b>Link</b></dt>
+		<dd>Style default pada sebuah link <b><i>(.a:link)</i></b></dd>
+		<dt>Hover</dt>
+		<dd>Style ketika sebuah mouse berada diatas link <b><i>(.a:hover)</i></b></dd>
+		<dt>Active</dt>
+		<dd>Style ketika sebuah link diklik <b><i>(.a:active)</i></b></dd>
+		<dt>Visited</dt>
+		<dd>Style ketika link sudah di kunjungi sebelumnya <b><i>(.a:visited)</i></b></dd>
+		<dt>First-child</dt>
+		<dd>Memilih elemen pertama dari sebuah parent <b><i>(list:first-child)</i></b></dd>
+		<dt>Nth-child</dt>
+		<dd>Memilih elemen individu yang ingin dituju <b><i>(list:nth-child(angka,list yg dituju))</i></b></dd>
+		<dt>Last-child</dt>
+		<dd>Memilih elemen terakhir dari sebuah parent <b><i>(list:last-child)</i></b></dd>
+		<dt>First-of-type</dt>
+		<dd>Memilih elemen pertama dari sebuah jenis/tipe tag</dd>
+		<dt>Last-of-type</dt>
+		<dd>Memilih elemen terakhir dari sebuah jenis/tipe tag</dd>
+	</dl>
+	<p>Nth-child</p>
+	<ul>
+		<li><b><i>angka n,angka n+angka, angka n-angka (pola)</i></b></li>
+		<li><b><i>angka ganjil (even)</i></b></li>
+		<li><b><i>angka genap (odd)</i></b></li>
+	</ul>
+	<hr>
+	<br>
+	<h2>Inherit</h2>
+	<dl>
+		<dt>Inherit</dt>
+		<dd>TUgasnya untuk membantu elemen yang tidak mewarisi nilai dari properti color</dd>
+	</dl>
+	<hr>
+	<br>
+
+	<h2>Position</h2>
+	<ul>
+		<li>Static</li>
+		<li>Relative</li>
+		<li>Absolute</li>
+		<li>Fixed</li>
+	</ul>
+	<dl>
+		<dt>Static</dt>
+		<dd>Akan membuat sebuah elemen menjadi seolah-olah berbeda dimensi</dd>
+		<dt>Relative</dt>
+		<dd>Menggerakan relative posisi awalnya</dd>
+		<dt>Absolute</dt>
+		<dd>Ruang yg ditempati oleh elemen tersebut dianggap tidak ada, <b>biasa digunakan untuk membuat topbar </b></dd>
+		<dt>Fixed</dt>
+		<dd> <b>biasa digunakan untuk membuat topbar </b></dd>
+	</dl>
+	<hr>
+	<br>
+
+	<h2>z-index</h2>
+	<p>Untuk mengatur tumpukan elemen yang non static</p>
+	<hr>
+	<br>
+	
+</body>
+</html>
