@@ -8,9 +8,6 @@
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=goyeh98&theme=radical&hide_border=true)<br/>
 
-## 🐦 Latest Tweet
-[![](https://gtce.itsvg.in/api?username=goyeh98)](https://github.com/VishwaGauravIn/github-twitter-card-embed)
-
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
